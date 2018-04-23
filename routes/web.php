@@ -14,3 +14,10 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::group(['prefix' => 'testing1'], function () {
+
+	Route::get('/', function () { 
+	    return view('brnach io web design layout testing.webdesign_branchio');
+	});
+});
