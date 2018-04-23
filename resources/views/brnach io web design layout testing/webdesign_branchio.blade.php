@@ -52,7 +52,7 @@
   			</div>
   			<div class="font-weight-bold line-height">Customize the SMS your users will receive:</div>
         <div class="line-height">
-  			  <input type="text" value="Click here to download Timev - Buy & Sell Local Service link" required>
+  			  <input type="text" style="width: 90%;" value="Click here to download Timev - Buy & Sell Local Service link" required>
         </div>
   			<div class="line-height">Use link as a placeholder for the link in the SMS. <a>See the docs</a> for more placeholders. </div>
   			<div style="margin-top: 50px;"></div>
@@ -62,7 +62,7 @@
   			</div>
   		</div>
   	</div>
-  	<div id="example-max-width" class="pull-lefts padding-left-right padding-top-bottom flex-align-self-end" style="border: 1px solid #ccc!important;">
+  	<div id="example-max-width" class="pull-lefts padding-left-right padding-top-bottom flex-align-self-end" style="border: 1px solid #ccc!important; padding-left: 2em;">
   		<div class="flex-justify-content-start header-background-color"> 
   			<div class="pull-lefts font-weight-bold line-height">Example</div>
       </div>
