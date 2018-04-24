@@ -93,7 +93,7 @@
       </a>
   		<div class="flex-justify-content-between">
   			<div class="pull-lefts">
-  				<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQ267CaRWJ9d940L36FfnIf7YZC7budeUoeTVLM3QdVRsO5vfAag" height="300" width="250">
+  				<img src="https://is3-ssl.mzstatic.com/image/thumb/Purple122/v4/84/97/53/84975389-cdfb-1219-1fe6-ca1a55337a1b/source/512x512bb.jpg" height="300" width="250">
   			</div>
   			<div class="padding-left-right" style="border: 2px solid #ccc!important;">
   				<div class="font-weight-bold" style="font-size: 0.8em; padding-top: 10px;">YOUR APP NAME</div>
