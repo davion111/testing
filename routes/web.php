@@ -17,7 +17,10 @@ Route::get('/', function () {
 
 Route::group(['prefix' => 'testing1'], function () {
 
-	Route::get('/', function () { 
+	Route::get('/branchio1', function () { 
 	    return view('brnach io web design layout testing.webdesign_branchio');
+	});
+	Route::get('/branchio2', function () { 
+	    return view('brnach io web design layout testing.testing');
 	});
 });

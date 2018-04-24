@@ -1,0 +1,67 @@
+body {
+  font-family: Source Sans Pro,sans-serif;
+  font-weight: 300;
+  font-size: 14px;
+}
+
+div,
+table,
+ul {
+  font-size: 0.9em;
+}
+
+.pull-lefts {
+  float: left;
+}
+
+.pull-rights {
+  float: right;
+}
+
+.flex-justify-content-start {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start !important;
+      -ms-flex-pack: start !important;
+          justify-content: flex-start !important;
+}
+
+.flex-justify-content-between {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.flex-justify-content-end {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end !important;
+      -ms-flex-pack: end !important;
+          justify-content: flex-end !important;
+}
+
+.flex-align-content-stick-top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-line-pack: start;
+      align-content: flex-start;
+}
+
+.flex-align-content-stick-bottom {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-line-pack: end;
+      align-content: flex-end;
+}
+
+.header-background-color {
+  background-color: #f4f8ff;
+}
+

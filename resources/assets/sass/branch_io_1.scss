@@ -1,0 +1,45 @@
+body {
+  font-family: Source Sans Pro,sans-serif;
+  font-weight: 300;
+  font-size: 14px;
+}
+
+div, table, ul {
+	font-size: 0.9em;
+}
+
+
+// flex//
+
+.pull-lefts {
+	float: left;
+}
+.pull-rights {
+	float: right;
+}
+.flex-justify-content-start {
+	display: flex;
+    justify-content: flex-start !important;
+}
+.flex-justify-content-between {
+	display: flex;
+	justify-content: space-between;
+}
+.flex-justify-content-end {
+	display: flex;
+    justify-content: flex-end !important;
+}
+.flex-align-content-stick-top {
+	display: flex;
+	align-content: flex-start;	
+}      
+.flex-align-content-stick-bottom {	
+	display: flex;
+	align-content: flex-end;	
+}      
+
+
+//others
+.header-background-color {
+	background-color: #f4f8ff;
+}
