@@ -15,12 +15,12 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::group(['prefix' => 'testing1'], function () {
+Route::group(['prefix' => 'testing'], function () {
 
-	Route::get('/branchio1', function () { 
-	    return view('brnach io web design layout testing.webdesign_branchio');
+	Route::get('/layout_1', function () { 
+	    return view('web-layout-testing.testing');
 	});
-	Route::get('/branchio2', function () { 
-	    return view('brnach io web design layout testing.testing');
+	Route::get('/layout_2', function () { 
+	    return view('web-layout-testing.testing_1');
 	});
 });

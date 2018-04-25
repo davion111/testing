@@ -21,12 +21,71 @@ a {
   color: #0ABAB5;
 }
 
+@media only screen and (max-width: 576px) {
+  #example-max-width {
+    max-width: 1250px !important;
+  }
+
+  #setup-max-width {
+    max-width: 1250px !important;
+  }
+
+  img {
+    width: 100px;
+    height: 100px;
+  }
+
+  div,
+  div.line-height,
+  label.line-height,
+  p,
+  select,
+  input,
+  li {
+    padding-top: 0.4em;
+    padding-bottom: 0.4em;
+    font-size: 0.8em;
+  }
+
+  .flex-justify-content-between {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical !important;
+    -webkit-box-direction: normal !important;
+        -ms-flex-direction: column !important;
+            flex-direction: column !important;
+  }
+
+  .margin-left-right {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  .responsive-nav {
+    padding-left: 20px;
+    margin-left: 10px;
+    border: 1px solid #ccc !important;
+    width: 82% !important;
+  }
+}
+
 #setup-max-width {
   max-width: 600px;
+  padding-left: 20px;
+  border: 1px solid #ccc;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
 #example-max-width {
   max-width: 600px;
+  border: 1px solid #ccc;
+  padding-left: 1em;
+}
+
+#border-2px {
+  border: 2px solid #ccc !important;
 }
 
 .pull-lefts {
@@ -183,5 +242,76 @@ a {
 
 .header-background-color {
   background-color: #f4f8ff;
+}
+
+.responsive-nav {
+  padding-left: 20px;
+  margin-left: 10px;
+  border: 1px solid #ccc !important;
+  width: 100%;
+}
+
+.w-50 {
+  width: 50%;
+}
+
+.w-90 {
+  width: 90%;
+}
+
+.w-100 {
+  width: 100%;
+}
+
+.mt-0-5em {
+  margin-top: 0.5em;
+}
+
+.mt-10px {
+  margin-top: 10px;
+}
+
+.mt-20px {
+  margin-top: 20px;
+}
+
+.mt-50px {
+  margin-top: 50px;
+}
+
+.mt-3-7em {
+  margin-top: 3.7em;
+}
+
+.mr-10px {
+  margin-right: 10px;
+}
+
+.mr-1-3em {
+  margin-right: 1.3em;
+}
+
+.pl-8px {
+  padding-left: 8px;
+}
+
+.pr-1-2em {
+  padding-right: 1.2em;
+}
+
+.fa-0-7em {
+  font-size: 0.7em !important;
+}
+
+.fa-0-8em {
+  font-size: 0.8em !important;
+}
+
+.fa-1-0em {
+  font-size: 1.0em !important;
+}
+
+.fa-1-5em {
+  font-size: 1.5em !important;
 }
 

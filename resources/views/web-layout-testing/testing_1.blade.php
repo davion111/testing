@@ -1,12 +1,10 @@
 <html>
 <head>
 	<meta charset="UTF-8">
-	<title>Branch Io</title>
+	<title>Testing 2</title>
 	<link href="{{ asset('css/branch_io_1.css') }}" rel="stylesheet">
 </head>
 <body>
-
-
 
 <div class="pull-lefts" style="width: 15%;">	
 	<nav>
