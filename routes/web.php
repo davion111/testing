@@ -23,4 +23,7 @@ Route::group(['prefix' => 'testing'], function () {
 	Route::get('/layout_2', function () { 
 	    return view('web-layout-testing.testing_1');
 	});
+	Route::get('/react/day1', function () { 
+	    return view('react-20180905');
+	});
 });
