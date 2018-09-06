@@ -24,6 +24,6 @@ Route::group(['prefix' => 'testing'], function () {
 	    return view('web-layout-testing.testing_1');
 	});
 	Route::get('/react/day1', function () { 
-	    return view('react-20180905');
+	    return view('react.react-20180905');
 	});
 });

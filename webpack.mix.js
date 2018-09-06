@@ -12,6 +12,7 @@ let mix = require('laravel-mix');
  */
 
 mix.js('resources/assets/js/app.js', 'public/js')
+   .js('resources/assets/js/react/react-20180905.js', 'public/js/react')
    .sass('resources/assets/sass/app.scss', 'public/css')
    .sass('resources/assets/sass/branch_io.scss', 'public/css')
    .sass('resources/assets/sass/branch_io_1.scss', 'public/css');
